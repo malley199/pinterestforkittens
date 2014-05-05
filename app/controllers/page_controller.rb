@@ -1,7 +1,10 @@
 class PageController < ApplicationController
-  def index
-  end
-def about
-	 end
+	def home
+	end
+
+	def about
 	end
 	
+  def cutePics
+  end
+end

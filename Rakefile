@@ -4,5 +4,3 @@
 require File.expand_path('../config/application', __FILE__)
 
 Pinterestforkittens::Application.load_tasks
-
-this does nothing
