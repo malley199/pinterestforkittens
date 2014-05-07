@@ -1,8 +1,11 @@
 Pinterestforkittens::Application.routes.draw do
 
 
+  resources :pins
+
 get "/about" => "page#about"
 get "/cutepics" => "page#cutePics"  
+
 root "page#index"
   
   # e priority is based upon order of creation: first created -> highest priority.
